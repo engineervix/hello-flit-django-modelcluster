@@ -4,6 +4,7 @@ Changelog
 6.1 (15.06.2022)
 ~~~~~~~~~~~~~~~~
 * Port project to Flit (65ca1cf)
+* change PyPI project name to avoid potential conflict with actual package (e21fafa)
 * Add --setup-py option to flit publish (c89061c)
 * add .python-version to .gitignore (7498c5b)
 

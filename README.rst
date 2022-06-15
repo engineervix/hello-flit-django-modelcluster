@@ -1,8 +1,21 @@
-.. image:: https://travis-ci.org/wagtail/django-modelcluster.svg?branch=master
-    :target: https://travis-ci.org/wagtail/django-modelcluster
+.. image:: https://github.com/engineervix/hello-flit-django-modelcluster/actions/workflows/test.yml/badge.svg
+    :target: https://github.com/engineervix/hello-flit-django-modelcluster/actions/workflows/test.yml
+    :alt: CI
 
 django-modelcluster
 ===================
+
+.. note::
+
+   the purpose of this fork is to experiment packaging a Django package with `Flit <https://flit.pypa.io`_.
+
+Install
+--------
+
+.. code-block:: console
+
+ pip install -i https://test.pypi.org/simple --extra-index-url https://pypi.python.org/simple hello-flit-django-modelcluster
+
 
 If you had a data model like this:
 
