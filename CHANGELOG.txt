@@ -1,6 +1,14 @@
 Changelog
 =========
 
+6.1.2 (15.06.2022)
+~~~~~~~~~~~~~~~~~~
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit
+* Ut enim ad minim veniam, quis nostrud exercitation ullamco
+* aucibus turpis in eu mi bibendum. At in tellus integer feugiat scelerisque varius morbi. Sit amet dictum sit amet justo
+* Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+* From its medieval origins to the digital era, know about the ubiquitous lorem ipsum passage.
+
 6.1.1 (15.06.2022)
 ~~~~~~~~~~~~~~~~~~
 * fix RST URL syntax for Flit URL (20138b2)
