@@ -139,7 +139,8 @@ jobs:
       - name: Extract Release Notes
         # This creates a file LATEST_RELEASE_NOTES.md in the parent directory (../)
         run: |
-          sed  '1,/^"${{ steps.get_version.outputs.VERSION }}"/d;/^[0-9]/Q' CHANGELOG.txt | tail -n +2 > ../LATEST_RELEASE_NOTES.md
+          export VER=${{ steps.get_version.outputs.VERSION }}
+          sed  "1,/^$VER/d;/^[0-9]/Q" CHANGELOG.txt | tail -n +2 > ../LATEST_RELEASE_NOTES.md
 
       - name: GitHub Release
         uses: softprops/action-gh-release@v1
