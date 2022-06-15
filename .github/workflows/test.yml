@@ -112,14 +112,16 @@ jobs:
           FLIT_USERNAME: ${{ secrets.FLIT_TEST_USERNAME }}
           FLIT_PASSWORD: ${{ secrets.FLIT_TEST_PASSWORD }}
           FLIT_INDEX_URL: https://test.pypi.org/legacy/
-        run: flit publish
+        # Generate a setup.py file in the sdist, so it can be installed by older versions of pip.
+        # https://flit.pypa.io/en/latest/cmdline.html?highlight=setup.cfg#cmdoption-flit-publish-setup-py
+        run: flit publish --setup-py
 
       # - name: Publish 🐍 distribution 📦 to PyPI
       #   env:
       #     FLIT_USERNAME: ${{ secrets.FLIT_USERNAME }}
       #     FLIT_PASSWORD: ${{ secrets.FLIT_PASSWORD }}
       #     FLIT_INDEX_URL: https://upload.pypi.org/legacy/
-      #   run: flit publish
+      #   run: flit publish --setup-py
 
       - name: Get the version
         id: get_version
