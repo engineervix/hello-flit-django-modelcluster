@@ -1,6 +1,12 @@
 Changelog
 =========
 
+6.1 (15.06.2022)
+~~~~~~~~~~~~~~~~
+* Port project to Flit (65ca1cf)
+* Add --setup-py option to flit publish (c89061c)
+* add .python-version to .gitignore (7498c5b)
+
 6.0 (14.03.2022)
 ~~~~~~~~~~~~~~~~
 * BREAKING: ClusterForm now builds no child formsets when neither `formsets` nor `exclude_formsets` is specified in the Meta class, rather than building a formset for every child relation (Matt Westcott)
