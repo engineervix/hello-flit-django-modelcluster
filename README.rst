@@ -7,7 +7,7 @@ django-modelcluster
 
 .. note::
 
-   the purpose of this fork is to experiment packaging a Django package with `Flit <https://flit.pypa.io`_.
+   the purpose of this fork is to experiment packaging a Django package with `Flit <https://flit.pypa.io>`_.
 
 Install
 --------
