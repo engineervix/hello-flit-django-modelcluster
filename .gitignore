@@ -5,3 +5,4 @@ build/
 .tox/
 MANIFEST
 /django_modelcluster.egg-info
+.python-version
